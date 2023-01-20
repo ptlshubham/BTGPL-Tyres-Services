@@ -14022,6 +14022,7 @@ footer .widget_services ul li a:hover {
 .boxed .rev_slider_wrapper {
     left: 0 !important;
     width: 100% !important;
+    height: 85% !important;
 }
 
 .boxed .tp-rightarrow {
@@ -14070,6 +14071,8 @@ footer .widget_services ul li a:hover {
 .frame .rev_slider_wrapper {
     left: 0 !important;
     width: 100% !important;
+    height: 85% !important;
+
 }
 
 .frame .tp-rightarrow {

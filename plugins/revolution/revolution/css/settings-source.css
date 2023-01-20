@@ -172,6 +172,8 @@ website:   	http://www.themepunch.com
 	position:relative;
 	z-index: 0;
 	width:100%;
+    height: 85% !important;
+
 }
 
 .rev_slider{
