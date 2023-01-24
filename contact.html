@@ -190,7 +190,8 @@
 								</div>
 							</div>
 							<div class="col-lg-8 col-md-12 m-b30">
-								<form class="inquiry-form wow fadeInUp" data-wow-delay="0.2s">
+								<form class="inquiry-form wow fadeInUp" data-wow-delay="0.2s" id="contact-form"
+									method="post" action="contact.php">
 									<h3 class="title-box font-weight-300 m-t0 m-b10">Get in Touch with us
 										<span class="bg-primary"></span>
 									</h3>
@@ -202,8 +203,18 @@
 												<div class="input-group">
 													<span class="input-group-addon"><i
 															class="ti-user text-primary"></i></span>
-													<input name="dzName" type="text" required class="form-control"
-														placeholder="First Name">
+													<input name="firstName" id="firstName" type="text" required
+														class="form-control" placeholder="First Name">
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon"><i
+															class="ti-user text-primary"></i></span>
+													<input name="lastName" id="lastName" type="text" required
+														class="form-control" placeholder="Last Name">
 												</div>
 											</div>
 										</div>
@@ -212,38 +223,41 @@
 												<div class="input-group">
 													<span class="input-group-addon"><i
 															class="ti-mobile text-primary"></i></span>
-													<input name="dzOther[Phone]" type="text" required
+													<input name="contactNumber" id="contactNumber" type="text" required
 														class="form-control" placeholder="Phone">
 												</div>
 											</div>
 										</div>
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon"><i
+															class="fa fa-wrench text-primary"></i></span>
+													<select class="form-select form-control" name="service"
+														id="service">
+														<option selected>Select Service</option>
+														<option value="Car">Car</option>
+														<option value="Motorcycle">Motorcycle</option>
+														<option value="Scooter">Scooter</option>
+														<option value="Farm">Farm</option>
+														<option value="OTR">OTR</option>
+														<option value="LCV">LCV</option>
+														<option value="Last Mile">Last Mile</option>
+														<option value="Truck & Bus">Truck & Bus</option>
+														<option value="Tubeless Tyres">Tubeless Tyres</option>
+														<option value="Tube Tyres">Tube Tyres</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
 										<div class="col-lg-12 col-md-12">
 											<div class="form-group">
 												<div class="input-group">
 													<span class="input-group-addon"><i
 															class="ti-email text-primary"></i></span>
-													<input name="dzEmail" type="email" class="form-control" required
-														placeholder="Your Email Id">
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6">
-											<div class="form-group">
-												<div class="input-group">
-													<span class="input-group-addon"><i
-															class="ti-check-box text-primary"></i></span>
-													<input name="dzOther[Subject]" type="text" required
-														class="form-control" placeholder="Upload File">
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6">
-											<div class="form-group">
-												<div class="input-group">
-													<span class="input-group-addon"><i
-															class="ti-file text-primary"></i></span>
-													<input name="dzOther[Subject]" type="text" required
-														class="form-control" placeholder="Upload File">
+													<input name="email" type="email" id="email" class="form-control"
+														required placeholder="Your Email Id">
 												</div>
 											</div>
 										</div>
@@ -252,7 +266,8 @@
 												<div class="input-group">
 													<span class="input-group-addon"><i
 															class="ti-agenda text-primary"></i></span>
-													<textarea name="dzMessage" rows="4" class="form-control" required
+													<textarea name="message" id="message" rows="4" class="form-control"
+														required
 														placeholder="Tell us about your project or idea"></textarea>
 												</div>
 											</div>
@@ -391,8 +406,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="text-center"> <span>Copyright © 2023 Bharat
-									Tyres Gujrat Pvt.
-									Ltd. Developed by <a href="https://keryar.com/" target="_blank">Keryar</a>.
+								Tyres Gujrat Pvt.
+								Ltd. Developed by <a href="https://keryar.com/" target="_blank">Keryar</a>.
 							</span> </div>
 					</div>
 				</div>
