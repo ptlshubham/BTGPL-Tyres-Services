@@ -1,8 +1,8 @@
 /*===================== Premery bg color =====================*/
 :root {
-	--color-primary: #d2151e;
+	--color-primary: #073f8a;
 	--color-secondry: #152332;
-	--color-hover: #e7232d;
+	--color-hover: #073f8a;
 	--rgba-primary-1: rgba(210,21,30,0.1);
 	--rgba-primary-2: rgba(210,21,30,0.2);
 	--rgba-primary-3: rgba(210,21,30,0.3);

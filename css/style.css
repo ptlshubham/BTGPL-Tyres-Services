@@ -14761,7 +14761,7 @@ ol.commentlist li .star-rating {
     top: 0;
     opacity: 1;
     z-index: 999999999;
-    background-image: url(../images/loading.gif);
+    background-image: url(../images/loading1.svg);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
