@@ -1864,7 +1864,7 @@ ol.commentlist li .meta span {
 .box-about-list .icon-bx-wraper .dlab-tilte{
     color: #fff;
     font-weight: 500;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .box-about-list .icon-bx-wraper:hover{
 	background-color:#fff;
@@ -2763,13 +2763,13 @@ HOME 5 Box Header
     content: "";
     width: 100%;
     height: 100%;
-    background: #6a1a1f;
+    background: #073f8a;
     position: absolute;
     left: 0;
     z-index: -1;
     border-radius: 10px 10px 10px 10px;
     transform: scale(1.3) rotate(15deg);
-    opacity: 0.05;
+    /* opacity: 0.05; */
 }
 /* Responsive */
 @media only screen and (max-width: 1024px){
