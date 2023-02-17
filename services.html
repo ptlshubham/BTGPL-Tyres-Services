@@ -159,24 +159,28 @@
                                     <h1 class="text-primary">Our Service</h1>
                                 </div>
                             </div>
-                            <div class="section-content box-sort-in button-example p-t10 p-b30 tabs-site-button">
-                                <div class="dlab-tabs">
-                                    <ul class="nav nav-tabs">
-                                        <li><a data-bs-toggle="tab" href="#web-design-1" class="active"><img
-                                                    src="images/client-logo/black/Tubeless_tyre.png" alt="Tubeless_tyre"
-                                                    style="height:30px;"><span class="title-head">TRADING</span></a>
-                                        </li>
-                                        <li><a data-bs-toggle="tab" href="#graphic-design-1"><img
-                                                    src="images/client-logo/black/mainta.png" alt="mainta"
-                                                    style="height:30px;">
-                                                <span class="title-head">MAINTENANCE & REPAIR</span></a></li>
-                                        <li><a data-bs-toggle="tab" href="#developement-1"><img
-                                                    src="images/client-logo/black/retread.png" alt="retread"
-                                                    style="height:30px;"><span class="title-head">RETRADING</span></a>
-                                        </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                        <div id="web-design-1" class="tab-pane active">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <div class="site-filters m-b20">
+                                        <ul class="filters" data-bs-toggle="buttons">
+                                            <li data-filter="trading" class="btn active"><input type="radio"><a href="#"
+                                                    class="site-button btnhover10 outline outline-2 button-sm"><span>Trading</span></a>
+                                            </li>
+                                            <li data-filter="maintenance" class="btn"><input type="radio"><a href="#"
+                                                    class="site-button btnhover10 outline outline-2 button-sm"><span>Maintenance
+                                                        & Repair</span></a>
+                                            </li>
+                                            <li data-filter="retrading" class="btn"><input type="radio"><a href="#"
+                                                    class="site-button btnhover10 outline outline-2 button-sm"><span>Retrading</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row sp15">
+                                <div class="col-lg-12">
+                                    <ul id="masonry" class="text-center">
+                                        <li class="card-container trading m-b15 ">
                                             <div class="section-head text-black text-center">
                                                 <div class="our-story content-bx1">
                                                     <span class="pt-5">TRADING</span>
@@ -391,8 +395,8 @@
                                                 </div>
                                             </div>
                                             <!-- Our Client Logo END -->
-                                        </div>
-                                        <div id="graphic-design-1" class="tab-pane">
+                                        </li>
+                                        <li class="card-container maintenance m-b15">
                                             <div class="section-full">
                                                 <div class="container">
                                                     <div class="row ">
@@ -497,8 +501,9 @@
                                                 </div>
                                             </div> -->
                                             <!-- Our Client Logo END -->
-                                        </div>
-                                        <div id="developement-1" class="tab-pane">
+                                        </li>
+                                        <li class="card-container retrading m-b15 wow " data-wow-duration="2s"
+                                            data-wow-delay="0.3s">
                                             <div class="container">
                                                 <div class="row align-items-center ">
                                                     <div class="col-lg-8 col-md-6 m-b20 " style="text-align: justify;">
@@ -561,8 +566,8 @@
                                                     </div>
                                                 </div>
                                             </div> -->
-                                        </div>
-                                    </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
