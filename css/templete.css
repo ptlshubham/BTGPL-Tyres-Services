@@ -2899,6 +2899,9 @@ HOME 5 Box Header
 	.dlab-tabs.vertical .tab-pane {
 		padding-left: 20px;
 	}
+	.ceat {
+		padding-left: 0px !important;
+	}
 }
 @media only screen and (max-width: 360px){
 	.service-box.style2 .title {
