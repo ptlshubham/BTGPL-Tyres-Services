@@ -209,5 +209,5 @@ if(!$mail->send()) { 	?>
 }
 ?>
 <script language="javascript">
-  window.open("index.html","_self");
+  window.open("https://btgpl.in","_self");
 </script>
