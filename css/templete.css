@@ -3892,9 +3892,19 @@ HOME 5 Box Header
     width: 100%;
     padding: 20px 10px;
 }	
-.slider-tabs .dlab-thum-bx img{
+/* .slider-tabs .dlab-thum-bx img{
 	height:100vh;
 	object-fit:cover;
+} */
+@media only screen and (max-width: 767px) {
+	.dlab-thum-bx img {
+	  height: 200px; /* set the desired height for mobile view */
+	}
+  }
+@media only screen and (max-width: 767px) {
+	.ceat-banner img {
+	  height: 150px; 
+	}
 }
 .slider-tabs .tab-box .content-box .title {
     font-size: 20px;
